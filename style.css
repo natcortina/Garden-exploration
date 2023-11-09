@@ -1,0 +1,107 @@
+h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+
+}
+
+#intro{
+    text-align: center;
+}
+
+body{
+
+    background-color: rgb(245, 236, 220);
+
+
+}
+
+p{
+    font-family: 'Gloria Hallelujah', cursive;
+  
+
+}
+
+.maincontainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.personascontainer{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+    text-align: start;
+}
+
+.rowcontainer{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    
+
+}
+
+.vilma-image{
+display: flex;
+max-width: 300px;
+flex-wrap: wrap;
+margin-inline-end: 400px;
+}
+
+
+.louis-image{
+    display: flex;
+    max-width: 300px;
+    flex-wrap: wrap;
+    margin-inline-end: 0px;
+    }
+
+    .sonia-image{
+        display: flex;
+        max-width: 300px;
+        flex-wrap: wrap;
+        margin-inline-end: 0px;
+        }
+
+        .peggy-image{
+            display: flex;
+            max-width: 350px;
+            flex-wrap: wrap;
+            justify-content: right;
+
+        }
+
+button{
+    background: none;
+    border: none;
+}
+
+.hidden-text {
+    display: none;
+    cursor: pointer;
+  }
+
+  #video-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  #peggyright{
+    justify-content: right;
+
+
+  }
+
+
+ #video{
+    justify-content: center;
+    align-items: center;
+ margin-left: 300px;
+    width: 560px;
+    height: 315px
+ }
